@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrandar Elemento</title>
+    <style>
+        /* Estilos del botón para que sea más visible */
+        #miElemento {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: transform 0.3s ease; /* Suaviza el agrandamiento */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Botón para agrandar -->
+    <button id="miElemento">Haz click para agrandar</button>
+
+    <script>
+        // Función que agranda un elemento y lo devuelve a su tamaño original
+        function agrandarElemento(id) {
+            // Obtén el elemento por su ID
+            const elemento = document.getElementById(id);
+            
+            if (elemento) {
+                // Agranda el elemento usando transform: scale()
+                elemento.style.transform = 'scale(1.5)'; // Ajusta el valor para agrandar más o menos
+
+                // Después de 2 segundos, vuelve a su tamaño original
+                setTimeout(() => {
+                    elemento.style.transform = 'scale(1)'; // Regresa al tamaño original
+                }, 2000);
+            }
+        }
+
+        // Agregar un evento click para probar la función
+        document.getElementById('miElemento').addEventListener('click', () => {
+            agrandarElemento('miElemento');
+        });
+    </script>
+
+</body>
+</html>

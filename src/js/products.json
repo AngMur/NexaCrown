@@ -1,0 +1,291 @@
+[
+    {
+        "productoID": 1,
+        "nombre": "Pantalón 01",
+        "precio": 299.0,
+        "disponibilidad": true,
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imagen": "./src/img/Pantalon_1.webp",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": 1
+        }
+    },
+    {
+        "productoID": 2,
+        "nombre": "Pantalón 02",
+        "precio": 349.0,
+        "disponibilidad": true,
+        "descripcion": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+        "imagen": "./src/img/Pantalon_2.webp",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": 1
+        }
+    },
+    {
+        "productoID": 3,
+        "nombre": "Pantalón 03",
+        "precio": 259.0,
+        "disponibilidad": true,
+        "descripcion": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "imagen": "./src/img/Pantalon_3.webp",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": 1
+        }
+    },
+    {
+        "productoID": 4,
+        "nombre": "Pantalón 04",
+        "precio": 279.0,
+        "disponibilidad": true,
+        "descripcion": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+        "imagen": "./src/img/Pantalon_4.webp",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": 1
+        }
+    },
+    {
+        "productoID": 5,
+        "nombre": "Pantalón 05",
+        "precio": 329.0,
+        "disponibilidad": true,
+        "descripcion": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+        "imagen": "./src/img/Pantalon_5.webp",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": 1
+        }
+    },
+    {
+        "productoID": 6,
+        "nombre": "Pantalón 06",
+        "precio": 319.0,
+        "disponibilidad": true,
+        "descripcion": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+        "imagen": "./src/img/Pantalon_6.webp",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": 1
+        }
+    },
+    {
+        "productoID": 7,
+        "nombre": "Pantalón 07",
+        "precio": 289.0,
+        "disponibilidad": true,
+        "descripcion": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.",
+        "imagen": "./src/img/Pantalon_7.webp",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": 1
+        }
+    },
+    {
+        "productoID": 8,
+        "nombre": "Playera 01",
+        "precio": 299.0,
+        "disponibilidad": true,
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imagen": "./src/img/Playera_1.webp",
+        "categoria": {
+            "nombre": "Playeras",
+            "id": 2
+        }
+    },
+    {
+        "productoID": 9,
+        "nombre": "Playera 02",
+        "precio": 299.0,
+        "disponibilidad": true,
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imagen": "./src/img/Playera_2.webp",
+        "categoria": {
+            "nombre": "Playeras",
+            "id": 2
+        }
+    },
+    {
+        "productoID": 10,
+        "nombre": "Playera 03",
+        "precio": 299.0,
+        "disponibilidad": true,
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imagen": "./src/img/Playera_3.webp",
+        "categoria": {
+            "nombre": "Playeras",
+            "id": 2
+        }
+    },
+    {
+        "productoID": 11,
+        "nombre": "Playera 04",
+        "precio": 299.0,
+        "disponibilidad": true,
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imagen": "./src/img/Playera_4.webp",
+        "categoria": {
+            "nombre": "Playeras",
+            "id": 2
+        }
+    },
+    {
+        "productoID": 12,
+        "nombre": "Playera 05",
+        "precio": 299.0,
+        "disponibilidad": true,
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imagen": "./src/img/Playera_5.webp",
+        "categoria": {
+            "nombre": "Playeras",
+            "id": 2
+        }
+    },
+    {
+        "productoID": 13,
+        "nombre": "Playera 06",
+        "precio": 299.0,
+        "disponibilidad": true,
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imagen": "./src/img/Playera_6.webp",
+        "categoria": {
+            "nombre": "Playeras",
+            "id": 2
+        }
+    },
+    {
+        "productoID": 14,
+        "nombre": "Playera 07",
+        "precio": 299.0,
+        "disponibilidad": true,
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imagen": "./src/img/Playera_7.webp",
+        "categoria": {
+            "nombre": "Playeras",
+            "id": 2
+        }
+    },  
+    {
+        "productoID": 15,
+        "nombre": "Sudadera 01",
+        "precio": 299.0,
+        "disponibilidad": true,
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imagen": "./src/img/Sudadera_1.webp",
+        "categoria": {
+            "nombre": "Sudaderas",
+            "id": 3
+        }
+    },
+    {
+        "productoID": 16,
+        "nombre": "Sudadera 02",
+        "precio": 299.0,
+        "disponibilidad": true,
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imagen": "./src/img/Sudadera_2.webp",
+        "categoria": {
+            "nombre": "Sudaderas",
+            "id": 3
+        }
+    },
+    {
+        "productoID": 17,
+        "nombre": "Sudadera 03",
+        "precio": 299.0,
+        "disponibilidad": true,
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imagen": "./src/img/Sudadera_3.webp",
+        "categoria": {
+            "nombre": "Sudaderas",
+            "id": 3
+        }
+    },
+    {
+        "productoID": 18,
+        "nombre": "Sudadera 04",
+        "precio": 299.0,
+        "disponibilidad": true,
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imagen": "./src/img/Sudadera_4.webp",
+        "categoria": {
+            "nombre": "Sudaderas",
+            "id": 3
+        }
+    },
+    {
+        "productoID": 19,
+        "nombre": "Sudadera 05",
+        "precio": 299.0,
+        "disponibilidad": true,
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imagen": "./src/img/Sudadera_5.webp",
+        "categoria": {
+            "nombre": "Sudaderas",
+            "id": 3
+        }
+    },
+    {
+        "productoID": 20,
+        "nombre": "Top 01",
+        "precio": 299.0,
+        "disponibilidad": true,
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imagen": "./src/img/Top_1.webp",
+        "categoria": {
+            "nombre": "Tops",
+            "id": 4
+        }
+    },
+    {
+        "productoID": 21,
+        "nombre": "Top 02",
+        "precio": 299.0,
+        "disponibilidad": true,
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imagen": "./src/img/Top_2.webp",
+        "categoria": {
+            "nombre": "Tops",
+            "id": 4
+        }
+    },
+    {
+        "productoID": 22,
+        "nombre": "Top 03",
+        "precio": 299.0,
+        "disponibilidad": true,
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imagen": "./src/img/Top_3.webp",
+        "categoria": {
+            "nombre": "Tops",
+            "id": 4
+        }
+    },
+    {
+        "productoID": 23,
+        "nombre": "Top 04",
+        "precio": 299.0,
+        "disponibilidad": true,
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imagen": "./src/img/Top_4.webp",
+        "categoria": {
+            "nombre": "Tops",
+            "id": 4
+        }
+    },
+    {
+        "productoID": 24,
+        "nombre": "Top 05",
+        "precio": 299.0,
+        "disponibilidad": true,
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imagen": "./src/img/Top_5.webp",
+        "categoria": {
+            "nombre": "Tops",
+            "id": 4
+        }
+    }
+
+]
