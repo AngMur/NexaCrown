@@ -42,7 +42,15 @@ function showCart(){
 }
 
 function getTotal(){
-    totalNumber.innerText = "$ " + cart.reduce((acc, item) => acc + (item.cantidad * item.precio), 0);
+    const total = cart.reduce((acc, item) => acc + (item.cantidad * item.precio), 0);
+    if(total > 0){
+        document.getElementById("total-title").innerText = "Total:";
+        totalNumber.innerText = "$" + total;
+    }else {
+        document.getElementById("total-title").innerText = "";
+        totalNumber.innerText = "";
+    }
+    
 }
 
 function clearCart(){
@@ -62,37 +70,61 @@ function deleteArticle(id){
 
 
 cartClearButton.addEventListener("click", () => {
-    Swal.fire({
-        title: '¿Estás seguro?',
-        icon: 'question',
-        html: `Se van a borrar ${cart.reduce((acc, item) => acc + item.cantidad, 0)} productos.`,
-        showCloseButton: true,
-        showCancelButton: true,
-        focusConfirm: false,
-        confirmButtonText: `
-            <i class="bi bi-hand-thumbs-up-fill"></i>
-        `,
-        confirmButtonAriaLabel: "Thumbs up",
-        cancelButtonText: `
-            <i class="bi bi-hand-thumbs-down-fill"></i>
-        `,
-        cancelButtonAriaLabel: "Thumbs down"
-    }).then((result) => {
-        if (result.isConfirmed) {
-            clearCart();
-            showCart(); 
-        }
-      })
+    if(cart.length == 0){
+        Swal.fire({
+            title: "Carrito vacío",
+            icon: "info",
+            showCloseButton: true,
+        });
+        clearCart();
+        showCart(); 
+    }else{
+        Swal.fire({
+            title: '¿Estás seguro?',
+            icon: 'question',
+            html: `Se van a borrar ${cart.reduce((acc, item) => acc + item.cantidad, 0)} productos.`,
+            showCloseButton: true,
+            showCancelButton: true,
+            focusConfirm: false,
+            confirmButtonText: `
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+            `,
+            confirmButtonAriaLabel: "Thumbs up",
+            cancelButtonText: `
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+            `,
+            cancelButtonAriaLabel: "Thumbs down"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                clearCart();
+                showCart(); 
+            }
+        })
+    }
 });
 
 cartBuyButton.addEventListener("click", () => {
-  
-    Swal.fire({
-        title: "Proceso exitoso",
-        text: "¡Tu compra se realizo con exito, muchas gracias!",
-        icon: "success"
-      });
-    clearCart();
-    showCart();
+    if(cart.length == 0){
+        Swal.fire({
+            title: "Carrito vacío",
+            text: "Pruebra añadir algunos productos antes de comprar :)",
+            icon: "info",
+            showCloseButton: true,
+        });
+        clearCart();
+        showCart();
+    }else{
+        Swal.fire({
+            title: "Proceso exitoso",
+            text: "¡Tu compra se realizo con exito, muchas gracias!",
+            icon: "success",
+            showCloseButton: true,
+        });
+        clearCart();
+        showCart();
+    }
+
+
+    
 });
 

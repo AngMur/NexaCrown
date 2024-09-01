@@ -131,6 +131,8 @@ img{
 
 /* -- MEDIA QUERIES --*/
 @media (max-width: 700px) {
+    
+
     .card {
       font-size: 10px;    
     }

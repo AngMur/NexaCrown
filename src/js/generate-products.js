@@ -84,4 +84,8 @@ categoryButtons.forEach(currentButton => {
     })
 });
 
+function activateAside(){
+    const asideMenu = document.getElementsByClassName("aside-menu");
+    asideMenu.
+}
 

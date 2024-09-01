@@ -76,3 +76,8 @@
     /* background-color: black; */
 }
 
+@media (max-width: 700px) {
+    .cart-total-buy{
+        gap:0px;   
+    }
+}
