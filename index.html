@@ -20,7 +20,7 @@
             <a class="button-header" href="./cart.html">
                 <i class="bi bi-cart2"></i> <small id="cart-number" class="cart-number">0</small>
             </a>
-            <button class="button-header">
+            <button class="button-header" onclick="openMobileMenu()">
                 <i class="bi bi-list"></i>
             </button>
         </div>
@@ -28,7 +28,13 @@
     <main class="main-container">
         <aside class="aside-menu">
             <nav class="navbar">
+                
                 <ul>
+                    <li>
+                        <div class="close-mobile" onclick="closeMobileMenu()">
+                            <i class="bi bi-x-lg"></i>
+                        </div>
+                    </li>
                     <li>
                         <button  id="todos-productos" class="button-menu button-category active">
                             <i class="bi bi-bag-check"></i> Todos los productos

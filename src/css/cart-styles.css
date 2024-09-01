@@ -73,10 +73,15 @@
 .cart-total{
     color: var(--red);
     font-size: larger;
-    /* background-color: black; */
 }
 
+
+
 @media (max-width: 700px) {
+    .cart-article-info{
+        font-size: 8px;
+    }
+
     .cart-total-buy{
         gap:0px;   
     }

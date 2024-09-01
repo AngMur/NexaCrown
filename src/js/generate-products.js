@@ -84,8 +84,16 @@ categoryButtons.forEach(currentButton => {
     })
 });
 
-function activateAside(){
-    const asideMenu = document.getElementsByClassName("aside-menu");
-    asideMenu.
+function closeMobileMenu(){
+    document.querySelector(".aside-menu").style.display = "none";
+    document.querySelector(".close-mobile").style.display = "none";
+    document.getElementById("articles-grid").style.display = "grid";
+}
+
+function openMobileMenu(){
+    document.querySelector(".aside-menu").style.display = "flex";
+    document.querySelector(".close-mobile").style.display = "flex";
+    document.getElementById("articles-grid").style.display = "none";
+
 }
 

@@ -187,6 +187,18 @@ button{
     font-family: "Montserrat", sans-serif;
 }
 
+.close-mobile{
+    color: var(--clr-gray);
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    display: none;
+    justify-content: end;
+}
+
+#mobile-back{
+    display: none;
+}
+
 @media (max-width: 800px) {
     body {
         font-size: 12px;
@@ -215,7 +227,18 @@ button{
 
     .aside-menu {
         display: none;
+        position: absolute;
+        background-color: var(--red);
+        width: 100%;
+        margin: 0;
     }
+
+    #mobile-back{
+        display: block;
+    }
+
 }
+
+
 
   
