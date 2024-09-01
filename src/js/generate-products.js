@@ -75,7 +75,6 @@ function setNumber(){
 
 
 
-
 categoryButtons.forEach(currentButton => {
     currentButton.addEventListener("click", (e) => {
         document.querySelector(".active").classList.remove("active");

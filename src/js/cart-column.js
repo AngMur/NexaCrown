@@ -3,6 +3,7 @@ let cart = JSON.parse(localStorage.getItem("cart")) || [];
 const cartColumn = document.getElementById('cart-column');
 const totalNumber = document.getElementById('total-number');
 const cartClearButton = document.getElementById('cart-clear-button');
+const cartBuyButton = document.getElementById('cart-buy-button');
 
 if(cart.length){
     showCart();
@@ -83,3 +84,15 @@ cartClearButton.addEventListener("click", () => {
         }
       })
 });
+
+cartBuyButton.addEventListener("click", () => {
+  
+    Swal.fire({
+        title: "Proceso exitoso",
+        text: "¡Tu compra se realizo con exito, muchas gracias!",
+        icon: "success"
+      });
+    clearCart();
+    showCart();
+});
+
